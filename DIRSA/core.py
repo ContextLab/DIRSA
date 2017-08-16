@@ -1,12 +1,14 @@
 # -*- coding: utf-8 -*-
 from . import helpers
 
-def get_hmm():
-    """Get a thought."""
-    return 'hmmm...'
+# Jeremy's functions
+def io_ratio():
+    """In group Out group ratio"""
+    pass
 
+def dynamic_kmeans():
+    """Compute dynamic k-means"""
+    pass
 
-def hmm():
-    """Contemplation..."""
-    if helpers.get_answer():
-        print(get_hmm())
+def dynamic_kmeans_stats():
+    pass
