@@ -10,14 +10,13 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='sample',
+    name='DIRSA',
     version='0.1.0',
-    description='Sample package for Python-Guide.org',
+    description='Estimate clustering from dynamic intersubject functional connectivity patterns',
     long_description=readme,
-    author='Kenneth Reitz',
+    author='DIRT',
     author_email='me@kennethreitz.com',
-    url='https://github.com/kennethreitz/samplemod',
+    url='https://github.com/ContextLab/DIRSA',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
 )
-
